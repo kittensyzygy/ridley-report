@@ -81,8 +81,6 @@ body {
   max-width: 75ch;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2vw;
-  padding-right: 2vw;
   line-height: 1.7;
   font-family: "Courier Prime", Courier, monospace;
   background-color: snow;
@@ -122,7 +120,7 @@ body {
   justify-content: space-between;
 }
 
-.aligncenter, .popbox {
+.aligncenter, .popbox, .blockquote {
   display: flex;
   justify-content: center;
 }
@@ -196,8 +194,6 @@ p {
 
 blockquote {
   margin-top: 2ex;
-  margin-left: 3ch;
-  margin-right: 3ch;
   padding: 1ch;
   border-width: 1px;
   border-color: black;
