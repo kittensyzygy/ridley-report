@@ -1,0 +1,198 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  max-width: 75ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  line-height: 1.7;
+  font-family: "Courier Prime", Courier, monospace;
+  background-color: snow;
+}
+
+.intro {
+  margin-bottom: 5ex;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background-color: lightgoldenrodyellow;
+  padding: 1ch;
+  border-style: dotted;
+  border-color: black;
+  border-width: 1px;
+}
+
+.page {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-top: 2ex;
+  padding-bottom: 2ex;
+  padding-left: 3ex;
+  padding-right: 3ex;
+  margin-bottom: 5ex;
+  background-color: azure;
+}
+
+.alignright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alightboth {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.aligncenter {
+  display: flex;
+  justify-content: center;
+}
+
+.textindent {
+  text-indent: 5ch;
+}
+
+.textindentbig {
+  text-indent: 15ch;
+}
+
+.textindentbigger {
+  text-indent: 18ch;
+}
+
+.textright {
+  text-align: right;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+table {
+ border-collapse: collapse;
+}
+
+tr {
+  border-bottom: dotted 1px black;
+}
+
+.rowline {
+ border-bottom: solid 2px black;
+}
+
+.paddingright {
+  padding-right: 2ch;
+}
+
+.textpaddingleft, .bulletdash {
+  padding-left: 4ch;
+}
+
+h1, h2, h3, .headers, .pagenumber {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 3ex;
+}
+
+p {
+  margin-top: 2ex;
+}
+
+.bulletdash {
+  list-style-type: "— ";
+}
+
+blockquote {
+  margin-top: 2ex;
+  margin-left: 3ch;
+  margin-right: 3ch;
+  font-style: italic;
+}
+
+.noitalics {
+  font-style: normal;
+}
+
+footer {
+  font-size: small;
+}
