@@ -88,6 +88,7 @@ body {
 }
 
 .intro {
+  margin-top: 5ex;
   margin-bottom: 5ex;
   margin-left: 1vw;
   margin-right: 1vw;
@@ -96,6 +97,7 @@ body {
   border-style: dotted;
   border-color: black;
   border-width: 1px;
+  padding-bottom: 5ex;
 }
 
 .page {
@@ -121,9 +123,20 @@ body {
   justify-content: space-between;
 }
 
-.aligncenter {
+.aligncenter, .popbox {
   display: flex;
   justify-content: center;
+}
+
+.popbox {
+  margin-top: 2ex;
+  border-color: black;
+  border-style: dashed;
+  border-width: 2px;
+  padding-left: 2ch;
+  padding-right: 2ch;
+  padding-bottom: 2ex;
+  background-color: azure;
 }
 
 .textindent {
