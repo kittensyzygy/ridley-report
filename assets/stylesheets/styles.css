@@ -77,6 +77,10 @@ html {
   font-size: 100%;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
   max-width: 75ch;
   margin-left: auto;
@@ -210,4 +214,7 @@ blockquote {
 
 footer {
   font-size: small;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 2vh;
 }
