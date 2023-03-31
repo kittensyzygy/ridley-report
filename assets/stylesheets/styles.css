@@ -199,7 +199,12 @@ blockquote {
   margin-top: 2ex;
   margin-left: 3ch;
   margin-right: 3ch;
+  padding: 1ch;
+  border-width: 1px;
+  border-color: black;
+  border-style: groove;
   font-style: italic;
+  background-color: cornsilk;
 }
 
 .noitalics {
