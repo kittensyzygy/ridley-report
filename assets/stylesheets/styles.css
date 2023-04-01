@@ -132,7 +132,7 @@ body {
   justify-content: center;
 }
 
-.popbox {
+.popbox, .reportversions {
   margin-top: 2ex;
   border-color: black;
   border-style: dashed;
