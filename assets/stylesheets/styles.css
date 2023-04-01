@@ -149,11 +149,8 @@ body {
 }
 
 table {
-  width: 100%;
   margin-top: 3ex;
   border-collapse: collapse;
-  display: block;
-  overflow-x: auto;
 }
 
 tr {
@@ -162,6 +159,11 @@ tr {
 
 td {
   vertical-align: top;
+}
+
+.tablescroll {
+  display: block;
+  overflow-x: auto;
 }
 
 .textindent {
