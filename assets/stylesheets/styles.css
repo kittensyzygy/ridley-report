@@ -172,11 +172,11 @@ td {
 }
 
 .textindentbig {
-  text-indent: 10ch;
+  text-indent: 6ch;
 }
 
 .textindentbigger {
-  text-indent: 13ch;
+  text-indent: 9ch;
 }
 
 .textright {
@@ -228,6 +228,10 @@ blockquote {
 
 .noitalics {
   font-style: normal;
+}
+
+address {
+  margin-top: 2ex;
 }
 
 footer {
