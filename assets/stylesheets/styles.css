@@ -151,6 +151,8 @@ body {
 table {
   margin-top: 3ex;
   border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
 }
 
 tr {
