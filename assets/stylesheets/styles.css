@@ -79,6 +79,7 @@ html {
 
 html, body {
     overflow-x: hidden;
+    white-space: normal;
 }
 
 body {
@@ -142,16 +143,35 @@ body {
   background-color: azure;
 }
 
+#toc {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-top: 3ex;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: dotted 1px black;
+}
+
+td {
+  vertical-align: top;
+}
+
 .textindent {
-  text-indent: 5ch;
+  display: inline-block;
+  margin-left: 2ch;
 }
 
 .textindentbig {
-  text-indent: 15ch;
+  text-indent: 10ch;
 }
 
 .textindentbigger {
-  text-indent: 18ch;
+  text-indent: 13ch;
 }
 
 .textright {
@@ -162,14 +182,6 @@ body {
   text-align: center;
 }
 
-table {
- border-collapse: collapse;
-}
-
-tr {
-  border-bottom: dotted 1px black;
-}
-
 .rowline {
  border-bottom: solid 2px black;
 }
@@ -178,8 +190,13 @@ tr {
   padding-right: 2ch;
 }
 
-.textpaddingleft, .bulletdash {
+.textpaddingleft {
   padding-left: 4ch;
+}
+
+h1 {
+  margin-top: 5vh;
+  margin-bottom: 2vh
 }
 
 h1, h2, h3, .headers, .pagenumber {
@@ -192,10 +209,6 @@ h4 {
 
 p {
   margin-top: 2ex;
-}
-
-.bulletdash {
-  list-style-type: "— ";
 }
 
 blockquote {
