@@ -1,5 +1,5 @@
 # The Ridley Report
-[The Ridley Report](https://kittensyzygy.github.io/ridleyreport/)
+[The Ridley Report](https://kittensyzygy.github.io/ridley-report/)
 
 The *Final Report of the Nationalised Industries Policy Group*, better known as the **Ridley Report** was a Conservative document, drawn up in 1977 while the Tories were in opposition, outlining a strategy for running and privatising nationalised industries - like mines, buses, shipbuilding and airports - when they were back in power.
 
